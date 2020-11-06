@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import "semantic-ui-css/semantic.min.css"; // importing into the entry point of our React app.
 
 ReactDOM.render(
     <App />, document.getElementById('root'));
