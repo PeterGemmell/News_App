@@ -1,11 +1,14 @@
 import React from 'react';
+import {getBitcoinArticles} from "../ApiRequests"
 
 const NewsAppComponent = () =>{
 
-    return(   
+    getBitcoinArticles();
+
+    return
         
         <h1> Lets code in here </h1>
-    )
+    
 }
 
 export default NewsAppComponent;
