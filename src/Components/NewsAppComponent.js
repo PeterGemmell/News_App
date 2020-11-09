@@ -5,10 +5,10 @@ const NewsAppComponent = () =>{
 
     getBitcoinArticles();
 
-    return
+    return(
         
         <h1> Lets code in here </h1>
-    
+    )
 }
 
 export default NewsAppComponent;
