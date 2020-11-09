@@ -1,7 +1,10 @@
 import React from "react";
+import NewsAppComponent from "./Components/NewsAppComponent"
 
 function App() {
-  return <div> Ok lets do some coding </div>;
+  return (
+  <NewsAppComponent/>
+  )
 }
 
 export default App;
