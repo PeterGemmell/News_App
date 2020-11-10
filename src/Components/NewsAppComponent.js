@@ -1,14 +1,19 @@
 import React from 'react';
 import {getBitcoinArticles} from "../ApiRequests"
 
-const NewsAppComponent = () =>{
+class NewsAppComponent extends React.component {
 
-    getBitcoinArticles();
+  state = {
+  articles: [],
+  apiError: "",
+  };
+render() {
 
-    return(
+ return
+  <div> Hello World! </div>
 
-        <h1> NEWS TEST STUFF!!! </h1>
-    )
+}
+
 }
 
 export default NewsAppComponent;
