@@ -16,7 +16,7 @@ class NewsAppComponent extends React.Component {
 
   searchForTopic = async (topic) => {
     try {
-        this.setStat({loading:true});
+        this.setState({loading:true});
       const response = await getArticles(topic);
       this.setState({ articles: response.articles, searchTopic: topic, totalResults: response.totalResults });
     } catch (error) {
