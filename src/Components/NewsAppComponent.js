@@ -6,8 +6,8 @@ const NewsAppComponent = () =>{
     getBitcoinArticles();
 
     return(
-        
-        <h1> Lets code in here </h1>
+
+        <h1> NEWS TEST STUFF!!! </h1>
     )
 }
 
